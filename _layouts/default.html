@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% if page.title %}
+    <title>{{ page.title }}</title>
+    {% else %}
+    <title>{{ site.name }}</title>
+    {% endif %}
+    <meta charset="utf-8" />
+    <meta name="author" content="Yisong Song" />
+    <link rel="icon" href="/assets/favicon.png">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/sns.css">
+  </head>
+  <body>
+    <header id="pageheader">
+      <a id="title" href="/">{{ site.name }}</a>
+
+      <nav>
+        <a title="Archive" class="icon-list-ul" href="/archive.html"></a>
+        <a title="About" class="icon-user" href="/about.html"></a>
+      </nav>
+    </header>
+
+    <div id="content" role="main">
+      {{ content }}
+    </div>
+    
+    <footer>
+      <div>
+	
+      </div>
+    </footer>
+  </body>
+</html>
