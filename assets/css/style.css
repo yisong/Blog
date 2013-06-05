@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Galdeano","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
-  color: #555555;
+  color: #333332;
 }
 
 #pageheader {
@@ -30,7 +30,7 @@ body {
 
 .post {
   font-size: 1.0em;
-  line-height: 1.8em;
+  line-height: 1.9;
 }
 
 #content p {
