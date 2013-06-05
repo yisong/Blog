@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Overlock);
-@import url(http://fonts.googleapis.com/css?family=Coda);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
 @import url(http://fonts.googleapis.com/css?family=Galdeano);
 @import url(http://fonts.googleapis.com/css?family=Electrolize);
 @import url(http://fonts.googleapis.com/css?family=Cuprum);
@@ -9,6 +9,7 @@ body {
   padding: 0;
   font-family: "Galdeano","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
   color: #333332;
+  font-size: 14px;
 }
 
 #pageheader {
@@ -29,8 +30,8 @@ body {
 }
 
 .post {
-  font-size: 1.0em;
-  line-height: 1.9;
+  font-size: 1.1em;
+  line-height: 1.7em;
 }
 
 #content p {
@@ -49,7 +50,10 @@ body {
 
 
 #pageheader a#title  {
-	font:bold 2.5em serif;
+	font-size:2.5em;
+  font-weight: bold;
+  font-family: "Oswald", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  text-transform: uppercase;
 	color: #444;
   text-decoration: none;
   transition: color 0.25s ease-in;
@@ -87,7 +91,7 @@ nav a:hover {
   margin: 2em 0;
 }
 #page_nav a {
-  font-family: "Coda", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-family: "Oswald", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   font-size: .8em;
   padding: 0.25em 1em;
   color: #a0a0a0;
